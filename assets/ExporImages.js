@@ -1,0 +1,1 @@
+export const logoSena = require("./images/general/logoSena.png");
