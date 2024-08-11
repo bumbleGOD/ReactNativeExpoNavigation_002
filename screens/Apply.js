@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Text, View } from "react-native";
 
-export const Profile = () => {
+export const Apply = () => {
    return (
       <View>
-         <Text> profile </Text>
+         <Text> Apply </Text>
       </View>
    );
 };
 
-export default Profile;
+export default Apply;
