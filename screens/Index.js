@@ -17,7 +17,7 @@ export const Index = () => {
             />
             <View style={GlobalStyles.logoNav}>
                <Image source={logoSena} style={GlobalStyles.logoImage} />
-               <Text style={GlobalStyles.title}>WorkCito</Text>
+               <Text style={GlobalStyles.title}>SofiaWork</Text>
             </View>
             <AntDesign
                style={GlobalStyles.iconNavbar}

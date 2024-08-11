@@ -11,6 +11,7 @@ import Index from "./screens/Index";
 import Apply from "./screens/Apply";
 import Login from "./screens/auth/Login";
 import Register from "./screens/auth/Register";
+import Profile from "./screens/Profile";
 
 const Stack = createStackNavigator();
 
@@ -19,6 +20,7 @@ function AuthStack () {
       <Stack.Navigator>
         <Stack.Screen name="Login" component={Login} options={{ headerShown: false }} />
         <Stack.Screen name="Register" component={Register} options={{ headerShown: false }} />
+        <Stack.Screen name="Profile" component={Profile} options={{ headerShown: false }} />
       </Stack.Navigator>
     );
 }

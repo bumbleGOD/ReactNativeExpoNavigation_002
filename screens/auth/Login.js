@@ -40,9 +40,9 @@ export const Login = ( {navigation} ) => {
                   Registrate aquí
                </TouchableOpacity>
             </Text>
-            <Pressable style={GlobalStyles.buttonSubmit}>
+            <TouchableOpacity onPress={() => navigation.navigate('Profile')} style={GlobalStyles.buttonSubmit}>
                Iniciar Sesión
-            </Pressable>
+            </TouchableOpacity>
          </View>
       </View>
    );
