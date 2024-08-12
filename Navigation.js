@@ -21,8 +21,16 @@ function AuthStack () {
         <Stack.Screen name="Login" component={Login} options={{ headerShown: false }} />
         <Stack.Screen name="Register" component={Register} options={{ headerShown: false }} />
         <Stack.Screen name="Profile" component={Profile} options={{ headerShown: false }} />
+        <Stack.Screen name="Apply" component={Apply} options={{headerShown: false}} />
       </Stack.Navigator>
     );
+}
+
+function ApplyStack () {
+   <Stack.Navigator>
+      <Stack.Screen name="Profile" component={Profile} options={{headerShown: false}} />
+      <Stack.Screen name="Apply" component={Apply} options={{headerShown: false}} />
+   </Stack.Navigator>
 }
 
 const Tab = createBottomTabNavigator();

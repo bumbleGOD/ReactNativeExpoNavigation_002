@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import { Text, View, ScrollView, StyleSheet, Image } from "react-native";
+import { Text, View, ScrollView, StyleSheet, Image, TouchableOpacity } from "react-native";
 import GlobalStyles from "../assets/styles/GlobalStyles";
 import { logoSena } from "../assets/ExporImages";
 import Entypo from "@expo/vector-icons/Entypo";
 import AntDesign from "@expo/vector-icons/AntDesign";
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 
-export const Profile = () => {
+export const Profile = ({navigation}) => {
    return (
       <ScrollView>
          <View style={GlobalStyles.container}>
@@ -70,8 +70,8 @@ export const Profile = () => {
                      <Text style={[GlobalStyles.textGeneral, styles.textGeneral]}>2</Text>
                   </View>
                </View>
+               <TouchableOpacity onPress={() => navigation.navigate("Apply")} style={[GlobalStyles.buttonSubmit, styles.buttonSubmit]}>Ver ofertas aplicadas</TouchableOpacity>
             </View>
-            <View style={GlobalStyles.bodyBottom}></View>
          </View>
       </ScrollView>
    );
@@ -124,6 +124,10 @@ const styles = StyleSheet.create({
       position: 'relative',
       top: '50%',
       transform: 'translateY(-50%)'
+   },
+   buttonSubmit: {
+      marginTop: 15,
+      marginBottom: 10,
    }
 });
 
