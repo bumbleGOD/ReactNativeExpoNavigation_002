@@ -2,13 +2,23 @@ import React, { Component } from "react";
 import { Text, View, ScrollView, StyleSheet, Image } from "react-native";
 import GlobalStyles from "../assets/styles/GlobalStyles";
 import { logoSena } from "../assets/ExporImages";
+import Entypo from "@expo/vector-icons/Entypo";
+import AntDesign from "@expo/vector-icons/AntDesign";
+import FontAwesome from '@expo/vector-icons/FontAwesome';
 
 export const Profile = () => {
    return (
       <ScrollView>
          <View style={GlobalStyles.container}>
+               <View style={GlobalStyles.navbar}>
+                  <Entypo style={GlobalStyles.iconNavbar} name="menu" size={24} color="black" />
+                  <View style={GlobalStyles.logoNav}>
+                     <Image source={logoSena} style={GlobalStyles.logoImage} />
+                     <Text style={[GlobalStyles.title]}>SofiaWork</Text>
+                  </View>
+                  <FontAwesome name="user" size={24} color="black" style={[styles.i, GlobalStyles.iconNavbar]} />
+               </View>
             <View style={GlobalStyles.bodyTop}>
-               <Image source={logoSena} style={styles.logo_img} />
                <Text style={[GlobalStyles.textGeneral, styles.partition]}>
                   Datos de Usuario
                </Text>
@@ -60,9 +70,6 @@ export const Profile = () => {
                      <Text style={[GlobalStyles.textGeneral, styles.textGeneral]}>2</Text>
                   </View>
                </View>
-               <Text style={[GlobalStyles.textGeneral, styles.partition]}>Otros</Text>
-               <Text style={[styles.textGeneral, styles.labelLink]}>Sigue mi portafolio para más información</Text>
-               <Text style={GlobalStyles.anchorLink}>Juan.portafolio.web</Text>
             </View>
             <View style={GlobalStyles.bodyBottom}></View>
          </View>
@@ -109,6 +116,15 @@ const styles = StyleSheet.create({
    labelLink: {
       marginTop: 15,
    },
+   i: {
+      borderWidth: 1,
+      borderRadius: '100%',
+      height: '60%',
+      padding: 5,
+      position: 'relative',
+      top: '50%',
+      transform: 'translateY(-50%)'
+   }
 });
 
 export default Profile;
