@@ -8,14 +8,14 @@ const GlobalStyles = StyleSheet.create({
         height: '100%',
         // borderWidth: 1,
         // borderColor: 'red',
-    },  
+    },
     navbar: {
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'space-between',
         paddingHorizontal: 10,
         paddingVertical: 5,
-    },  
+    },
     logoNav: {
         display: 'flex',
         flexDirection: 'row',
@@ -97,6 +97,54 @@ const GlobalStyles = StyleSheet.create({
         textDecorationLine: 'underline',
         color: '#39A900',
         cursor: 'pointer',
+    },
+    bodyContainer: {
+        backgroundColor: 'rgb(210, 210, 210)',
+        padding: 20,
+        gap: 20,
+    },
+    bodyContent: {
+        backgroundColor: 'white',
+        borderWidth: 1,
+        borderColor: 'gray',
+        shadowOffset: { width: 0, height: 0 },
+        shadowOpacity: .8,
+        shadowRadius: 4,
+        padding: 10,
+    },
+    textTitleBody: {
+        color: '#39A900',
+    },
+    divider: {
+        height: 4,
+        width: '100%',
+        backgroundColor: '#39A900',
+        marginTop: 50,
+        marginBottom: 10,
+    },
+    part: {
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        gap: 10,
+    },
+    textPart: {
+        fontFamily: 'sans-serif',
+        fontWeight: 'bold',
+        fontSize: 13,
+    },
+    applyButton: {
+        backgroundColor: '#39A900',
+        padding: 5,
+        fontSize: 17,
+        color: 'white',
+        fontFamily: 'sans-serif',
+    },
+    desc: {
+        fontFamily: 'sans-serif',
+        marginTop: 8,
+        fontSize: 13,
     }
 });
 

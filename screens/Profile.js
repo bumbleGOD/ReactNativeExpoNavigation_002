@@ -92,8 +92,9 @@ const styles = StyleSheet.create({
       textAlign: "center",
    },
    partition: {
-      backgroundColor: "#39A900",
-      color: "white",
+      borderWidth: 1,
+      borderColor: "#39A900",
+      color: "#39A900",
       padding: 4,
       width: "85%",
       textAlign: "center",

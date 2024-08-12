@@ -48,50 +48,70 @@ export const Index = () => {
                <Text style={GlobalStyles.textGeneral}>Trabajo garantizado para todos</Text>
             </View>
          </View>
-         <View style={styles.bodyContainer}>
-            <View style={styles.bodyContent}>
-               <Text style={[GlobalStyles.textGeneral, styles.textTitleBody]}>Programador sin metas ni aspiraciones</Text>
+         <View style={GlobalStyles.bodyContainer}>
+            <View style={GlobalStyles.bodyContent}>
+               <Text style={[GlobalStyles.textGeneral, GlobalStyles.textTitleBody]}>Programador sin metas ni aspiraciones</Text>
                <Text style={GlobalStyles.textGeneral}>TrujisCompany</Text>
-               <View style={styles.divider}></View>
-               <View style={styles.part}>
-                  <Text style={styles.textPart}>Sin sueldo XD</Text>
-                  <TouchableOpacity style={styles.applyButton}>Aplicar</TouchableOpacity>
+               <Text style={GlobalStyles.desc}>Necesitamos a un super programador que programe de todo, que sea un programador re pro y re crack y sobre todo que le sepa mucho al minecraft</Text>
+               <View style={GlobalStyles.divider}></View>
+               <View style={GlobalStyles.part}>
+                  <Text style={GlobalStyles.textPart}>Sin sueldo XD</Text>
+                  <View style={styles.row}>
+                     <TouchableOpacity style={GlobalStyles.applyButton}>Más información</TouchableOpacity>
+                     <TouchableOpacity style={GlobalStyles.applyButton}>Aplicar</TouchableOpacity>
+                  </View>
                </View>
             </View>
-            <View style={styles.bodyContent}>
-               <Text style={[GlobalStyles.textGeneral, styles.textTitleBody]}>Programador senior para tareas sucias</Text>
+            <View style={GlobalStyles.bodyContent}>
+               <Text style={[GlobalStyles.textGeneral, GlobalStyles.textTitleBody]}>Programador senior para tareas sucias</Text>
                <Text style={GlobalStyles.textGeneral}>YairaShop</Text>
-               <View style={styles.divider}></View>
-               <View style={styles.part}>
-                  <Text style={styles.textPart}>De $1'500.000 a $4'500.000</Text>
-                  <TouchableOpacity style={styles.applyButton}>Aplicar</TouchableOpacity>
-               </View>             
+               <Text style={GlobalStyles.desc}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur eveniet harum dignissimos! Eveniet ipsum ducimus nesciunt similique assumenda? Quas ipsum cumque, alias ut veniam asperiores consectetur repellendus nemo saepe laboriosam.</Text>
+               <View style={GlobalStyles.divider}></View>
+               <View style={GlobalStyles.part}>
+                  <Text style={GlobalStyles.textPart}>De $1'500.000 a $4'500.000</Text>
+                  <View style={styles.row}>
+                     <TouchableOpacity style={GlobalStyles.applyButton}>Más información</TouchableOpacity>
+                     <TouchableOpacity style={GlobalStyles.applyButton}>Aplicar</TouchableOpacity>
+                  </View>
+               </View>
             </View>
-            <View style={styles.bodyContent}>
-               <Text style={[GlobalStyles.textGeneral, styles.textTitleBody]}>Trabajo 👍</Text>
+            <View style={GlobalStyles.bodyContent}>
+               <Text style={[GlobalStyles.textGeneral, GlobalStyles.textTitleBody]}>Trabajo 👍</Text>
                <Text style={GlobalStyles.textGeneral}>Microsoft</Text>
-               <View style={styles.divider}></View>
-               <View style={styles.part}>
-                  <Text style={styles.textPart}>$10'000.000</Text>
-                  <TouchableOpacity style={styles.applyButton}>Aplicar</TouchableOpacity>
+               <Text style={GlobalStyles.desc}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur eveniet harum dignissimos! Eveniet ipsum ducimus nesciunt similique assumenda? Quas ipsum cumque, alias ut veniam asperiores consectetur repellendus nemo saepe laboriosam.</Text>
+               <View style={GlobalStyles.divider}></View>
+               <View style={GlobalStyles.part}>
+                  <Text style={GlobalStyles.textPart}>$10'000.000</Text>
+                  <View style={styles.row}>
+                     <TouchableOpacity style={GlobalStyles.applyButton}>Más información</TouchableOpacity>
+                     <TouchableOpacity style={GlobalStyles.applyButton}>Aplicar</TouchableOpacity>
+                  </View>
                </View>
             </View>
-            <View style={styles.bodyContent}>
-               <Text style={[GlobalStyles.textGeneral, styles.textTitleBody]}>Trabajo bodrio (pero es trabajo)</Text>
+            <View style={GlobalStyles.bodyContent}>
+               <Text style={[GlobalStyles.textGeneral, GlobalStyles.textTitleBody]}>Trabajo bodrio (pero es trabajo)</Text>
                <Text style={GlobalStyles.textGeneral}>Tesla</Text>
-               <View style={styles.divider}></View>
-               <View style={styles.part}>
-                  <Text style={styles.textPart}>A conveniencia</Text>
-                  <TouchableOpacity style={styles.applyButton}>Aplicar</TouchableOpacity>
+               <Text style={GlobalStyles.desc}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur eveniet harum dignissimos! Eveniet ipsum ducimus nesciunt similique assumenda? Quas ipsum cumque, alias ut veniam asperiores consectetur repellendus nemo saepe laboriosam.</Text>
+               <View style={GlobalStyles.divider}></View>
+               <View style={GlobalStyles.part}>
+                  <Text style={GlobalStyles.textPart}>A conveniencia</Text>
+                  <View style={styles.row}>
+                     <TouchableOpacity style={GlobalStyles.applyButton}>Más información</TouchableOpacity>
+                     <TouchableOpacity style={GlobalStyles.applyButton}>Aplicar</TouchableOpacity>
+                  </View>
                </View>
             </View>
-            <View style={styles.bodyContent}>
-               <Text style={[GlobalStyles.textGeneral, styles.textTitleBody]}>Fontanero que sepa programar</Text>
+            <View style={GlobalStyles.bodyContent}>
+               <Text style={[GlobalStyles.textGeneral, GlobalStyles.textTitleBody]}>Fontanero que sepa programar</Text>
                <Text style={GlobalStyles.textGeneral}>Dildos-Diego</Text>
-               <View style={styles.divider}></View>
-               <View style={styles.part}>
-                  <Text style={styles.textPart}>$2'450.000 más iva</Text>
-                  <TouchableOpacity style={styles.applyButton}>Aplicar</TouchableOpacity>
+               <Text style={GlobalStyles.desc}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur eveniet harum dignissimos! Eveniet ipsum ducimus nesciunt similique assumenda? Quas ipsum cumque, alias ut veniam asperiores consectetur repellendus nemo saepe laboriosam.</Text>
+               <View style={GlobalStyles.divider}></View>
+               <View style={GlobalStyles.part}>
+                  <Text style={GlobalStyles.textPart}>$2'450.000 más iva</Text>
+                  <View style={styles.row}>
+                     <TouchableOpacity style={GlobalStyles.applyButton}>Más información</TouchableOpacity>
+                     <TouchableOpacity style={GlobalStyles.applyButton}>Aplicar</TouchableOpacity>
+                  </View>
                </View>
             </View>
          </View>
@@ -170,46 +190,10 @@ const styles = StyleSheet.create({
       padding: 10,
       borderRadius: '100%',
    },
-   bodyContainer: {
-      backgroundColor: 'rgb(210, 210, 210)',
-      padding: 20,
-      gap: 20,
-   },
-   bodyContent: {
-      backgroundColor: 'white',
-      borderWidth: 1,
-      borderColor: 'gray',
-      shadowOffset: { width: 0, height: 0 },
-      shadowOpacity: .8,
-      shadowRadius: 4,
-      padding: 10,
-   },
-   textTitleBody: {
-      color: '#39A900',
-   },
-   divider: {
-      height: 4, 
-      width: '100%', 
-      backgroundColor: '#39A900', 
-      marginTop: 50, 
-      marginBottom: 10,
-   },
-   part: {
+   row: {
       display: 'flex',
       flexDirection: 'row',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-   },
-   textPart: {
-      fontFamily: 'sans-serif',
-      fontWeight: 'bold',
-      fontSize: 13,
-   },
-   applyButton: {
-      backgroundColor: '#39A900',
-      padding: 5,
-      fontSize: 17,
-      color: 'white',
+      gap: 4,
    }
 });
 
