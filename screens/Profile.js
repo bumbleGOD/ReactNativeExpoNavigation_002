@@ -14,58 +14,18 @@ export const Profile = () => {
                </Text>
                <View style={styles.content}>
                   <View style={styles.left}>
-                     <Text
-                        style={[GlobalStyles.textGeneral, styles.textGeneral]}
-                     >
-                        Nombre:
-                     </Text>
-                     <Text
-                        style={[GlobalStyles.textGeneral, styles.textGeneral]}
-                     >
-                        Edad:
-                     </Text>
-                     <Text
-                        style={[GlobalStyles.textGeneral, styles.textGeneral]}
-                     >
-                        Teléfono:
-                     </Text>
-                     <Text
-                        style={[GlobalStyles.textGeneral, styles.textGeneral]}
-                     >
-                        Email:
-                     </Text>
-                     <Text
-                        style={[GlobalStyles.textGeneral, styles.textGeneral]}
-                     >
-                        Dirección:
-                     </Text>
+                     <Text style={[GlobalStyles.textGeneral, styles.textGeneral]}>Nombre:</Text>
+                     <Text style={[GlobalStyles.textGeneral, styles.textGeneral]}>Edad:</Text>
+                     <Text style={[GlobalStyles.textGeneral, styles.textGeneral]}>Teléfono:</Text>
+                     <Text style={[GlobalStyles.textGeneral, styles.textGeneral]}>Email:</Text>
+                     <Text style={[GlobalStyles.textGeneral, styles.textGeneral]}>Dirección:</Text>
                   </View>
                   <View style={styles.right}>
-                     <Text
-                        style={[GlobalStyles.textGeneral, styles.textGeneral]}
-                     >
-                        Juan Trujillo
-                     </Text>
-                     <Text
-                        style={[GlobalStyles.textGeneral, styles.textGeneral]}
-                     >
-                        17
-                     </Text>
-                     <Text
-                        style={[GlobalStyles.textGeneral, styles.textGeneral]}
-                     >
-                        3118977356
-                     </Text>
-                     <Text
-                        style={[GlobalStyles.textGeneral, styles.textGeneral]}
-                     >
-                        juanjosetm.22@gmail.com
-                     </Text>
-                     <Text
-                        style={[GlobalStyles.textGeneral, styles.textGeneral]}
-                     >
-                        Calle 69bis #105g-10
-                     </Text>
+                     <Text style={[GlobalStyles.textGeneral, styles.textGeneral]}>Juan Trujillo</Text>
+                     <Text style={[GlobalStyles.textGeneral, styles.textGeneral]}>17</Text>
+                     <Text style={[GlobalStyles.textGeneral, styles.textGeneral]}>3118977356</Text>
+                     <Text style={[GlobalStyles.textGeneral, styles.textGeneral]}>juanjosetm.22@gmail.com</Text>
+                     <Text style={[GlobalStyles.textGeneral, styles.textGeneral]}>Calle 69bis #105g-10</Text>
                   </View>
                </View>
                <Text style={[GlobalStyles.textGeneral, styles.partition]}>

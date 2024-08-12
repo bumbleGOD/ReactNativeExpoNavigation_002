@@ -4,8 +4,8 @@ const { width, height } = Dimensions.get('window');
 
 const GlobalStyles = StyleSheet.create({
     container: {
-        width: width,
-        height: height,
+        minWidth: '100%',
+        height: '100%',
         // borderWidth: 1,
         // borderColor: 'red',
     },  
@@ -76,6 +76,7 @@ const GlobalStyles = StyleSheet.create({
         borderWidth: 1,
         borderColor: '#222831',
         fontFamily: 'Sans-serif',
+        backgroundColor: 'white',
     },
     inputContainer: {
         width: '90%',
