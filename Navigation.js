@@ -26,13 +26,6 @@ function AuthStack () {
     );
 }
 
-function ApplyStack () {
-   <Stack.Navigator>
-      <Stack.Screen name="Profile" component={Profile} options={{headerShown: false}} />
-      <Stack.Screen name="Apply" component={Apply} options={{headerShown: false}} />
-   </Stack.Navigator>
-}
-
 const Tab = createBottomTabNavigator();
 
 function MyTabs() {

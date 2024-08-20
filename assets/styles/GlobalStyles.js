@@ -145,6 +145,10 @@ const GlobalStyles = StyleSheet.create({
         fontFamily: 'sans-serif',
         marginTop: 8,
         fontSize: 13,
+    },
+    jaja: {
+        color: 'white',
+        textAlign: 'center',
     }
 });
 
